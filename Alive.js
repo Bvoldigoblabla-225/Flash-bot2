@@ -1,7 +1,7 @@
 import cron from 'node-cron';
 import axios from 'axios';
 
-const url = 'PUT URL HERE';
+const url = 'https://flash-bot2.onrender.com';
 
 cron.schedule('*/14 * * * *', async () => {
   try {
