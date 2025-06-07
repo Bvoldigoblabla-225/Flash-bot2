@@ -20,9 +20,9 @@ const conf = {
   AV: process.env.AV || "on",
   PREFIXES: process.env.PREFIX !== undefined 
   ? process.env.PREFIX.split(",").map(p => p.trim()) 
-  : [""], 
+  : ["+"], 
   Session: process.env.SESSION || "",
-  NUMBER: process.env.OWNER_NUMBER || "",
+  NUMBER: process.env.OWNER_NUMBER || "+2250546841168",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || ""
 };
